@@ -1,8 +1,11 @@
 body{
     background:#1b4d51;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1;
 }
+
 header img{
-    max-width: 91,5vw;
+    max-width: 91.5vw ;
     display: block;
     margin-left: auto ;
     margin-right: auto;
@@ -10,21 +13,22 @@ header img{
 }
 main h1{
     background-color: #c59c6c;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 5px;
     margin: 10px 0;
     border: 8px solid #825D39; 
     text-align: center;
-}
+    text-decoration:underline;
 
+}
 main article{
     background-color: #c59c6c;
-    padding: 5px;
     border: 8px solid #825D39; 
+    text-align: center;
 }
-main article img {
-    max-width: 25vw;
-    border:2px solid #825D39;
+main article p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
 }
 
 main article a {
@@ -35,28 +39,54 @@ main article a {
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     transition: background-color 0.3s;
-    ali
 }
-
-.button:hover {
-    background-color: #0056b3;
+main article a:hover {
+    background-color: #a5382e; 
+    transition: 0ms;
 }
+main article a:active {
+    background-color: black; 
+    transition: 0ms;
+}
+main div{
+    display: flex;
+    background-color: #c59c6c;
+    border: 8px solid #825D39; 
+    align-items: center;
+}
+main div article{
+    border: 0px;
+    text-align: left;
+    padding: 5px;
+}
+main div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px ;
+}
+main div img{
+    max-width: 30vw;
+    max-height: 20vh ;
+    border: 2px solid #825D39; 
+}
+div article img{
+    max-width: fit-content;
 
+}
 img{
     max-width: 91.5vw;
     border: 8px solid #825D39; 
 }
-footer{
-    height: 100px;
-}
+
 nav{
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     width:100vw
+
 }
 nav ul{
     list-style: none;
@@ -66,6 +96,8 @@ nav ul{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
 
 }
 nav a{
@@ -75,10 +107,24 @@ nav a{
     flex-direction: column;
     align-items: center;
     margin: 0px 10px;
-
 }
 nav img{
     width: auto;
     height: 40px;
 }
+nav a:hover{
+    text-decoration: underline;
+    transition: 0ms;
+}
+
+footer{
+    border: 3px solid #825D39;
+    height: 100px;
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: small;
+}
+
 
