@@ -22,9 +22,9 @@ main h1{
 
 }
 main article{
-    background-color: #c59c6c;
-    border: 8px solid #825D39; 
+    background-color: #c59c6c; 
     text-align: center;
+    border: 8px solid #825D39; 
 }
 main article p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -118,7 +118,7 @@ nav a:hover{
 }
 
 footer{
-    border: 3px solid #825D39;
+
     height: 100px;
     color: white;
 }
