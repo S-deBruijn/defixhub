@@ -9,7 +9,6 @@ header img{
     display: block;
     margin-left: auto ;
     margin-right: auto;
-
 }
 main h1{
     background-color: #c59c6c;
@@ -19,7 +18,6 @@ main h1{
     border: 8px solid #825D39; 
     text-align: center;
     text-decoration:underline;
-
 }
 main article{
     background-color: #c59c6c; 
@@ -86,7 +84,6 @@ nav{
     left: 0;
     right: 0;
     width:100vw
-
 }
 nav ul{
     list-style: none;
@@ -98,7 +95,6 @@ nav ul{
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
-
 }
 nav a{
     text-decoration: none;
@@ -118,8 +114,7 @@ nav a:hover{
 }
 
 footer{
-
-    height: 100px;
+    height: 85px;
     color: white;
 }
 footer p{
